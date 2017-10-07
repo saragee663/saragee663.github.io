@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'fonts/nexa_boldregular';
+    src: url('fonts/Nexa_Free_Bold-webfont.eot');
+    src: url('fonts/Nexa_Free_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Nexa_Free_Bold-webfont.woff') format('woff'),
+         url('fonts/Nexa_Free_Bold-webfont.ttf') format('truetype'),
+         url('fonts/Nexa_Free_Bold-webfont.svg#nexa_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fonts/nexa_lightregular';
+    src: url('fonts/Nexa_Free_Light-webfont.eot');
+    src: url('fonts/Nexa_Free_Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Nexa_Free_Light-webfont.woff') format('woff'),
+         url('fonts/Nexa_Free_Light-webfont.ttf') format('truetype'),
+         url('fonts/Nexa_Free_Light-webfont.svg#nexa_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+#container {
+	width: 950px;
+	height: 768px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#header {
+	width: 750px;
+	height: 120px;
+	border-color: #0C6;
+	padding-top: 10px;
+	font-family: 'fonts/nexa_boldregular';
+	margin-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#logo {
+	float: left;
+	width: 	100px;
+	height: 110px;
+	background-image:url(images/logo.png);
+}
+
+#menu {
+	float: left;
+	width: 	260px;
+	height: 30px;
+	font-family: 'Montserrat';
+	margin-top: 50px;
+	font-size: 14px;
+	margin-left: 30px;
+	
+}
+
+#footer {
+	width: 950px;
+	height: 38px;
+	margin-top:20px;
+}
+
+
+#socialmedia {
+	width: 170px;
+	height: 38px;
+	margin-right: auto;
+	margin-left: auto;	
+}
+
+.socialmedia1 {
+	width: 35px;
+	height: 38px;
+	margin-right: 10px;
+	float: left;
+}
+
+#socialmedialast {
+	width: 35px;
+	height: 38px;
+	float: left;
+}
+
+a:link    {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	color: #000;
+	text-decoration: none;
+}
+a:hover   {
+	color:#CCCA7E;
+	text-decoration: none;
+}
+a:active  {
+	color:#CCCA7E;
+	text-decoration: none;	
+}
+
+
+
